@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Tailscale
+GenericName=VPN
+Comment=Connect to Tailscale
+Keywords=vpn;network;security;
+Exec=/opt/ubuntu-tailscale-launcher/tailscale.sh
+Icon=/opt/ubuntu-tailscale-launcher/tailscale.png
+Terminal=true
+Type=Application
+Categories=Application;Network;
+X-Desktop-File-Install-Version=0.0.1
