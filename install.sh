@@ -22,7 +22,7 @@ TEMP_OUT=/tmp/master.zip
 version=`awk -F= '$1=="VERSION_ID" { print $2; }' /etc/os-release | sed 's/^"\([0-9]*\).*/\1/'`
 
 # Check package dependencies
-if [ $version -lt 25 ] && [ -z `which gnome-terminal` ]; then
+if [ $version -gt 24 ] || [ -z `which gnome-terminal` ]; then
   cat << EOF
 **ATTENTION**
 gnome-terminal is not supported in this Ubuntu release and will be installed.
