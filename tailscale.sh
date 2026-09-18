@@ -17,4 +17,8 @@
 #   - This script must be run as $USER
 #
 
+# Logout existing Tailscale sessions
+tailscale logout
+
+# Launch Tailscale in a new terminal
 gnome-terminal --geometry 58x8+0+0 --title "Connect to Tailscale" --window -- bash -c "tailscale up; exec bash"
