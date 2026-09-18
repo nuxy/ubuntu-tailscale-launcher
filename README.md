@@ -1,5 +1,7 @@
 # ubuntu-tailscale-launcher
 
+[![](https://img.shields.io/github/v/release/nuxy/ubuntu-tailscale-launcher)](https://github.com/nuxy/ubuntu-tailscale-launcher/releases) [![NO AI](https://raw.githubusercontent.com/nuxy/no-ai-badge/master/badge.svg)](https://github.com/nuxy/no-ai-badge)
+
 Another (unofficial) Ubuntu [Tailscale](https://tailscale.com) VPN launcher.
 
 ![Tailscale](https://raw.githubusercontent.com/nuxy/ubuntu-tailscale-launcher/master/preview.png)
@@ -12,7 +14,7 @@ Another (unofficial) Ubuntu [Tailscale](https://tailscale.com) VPN launcher.
 
 ## Installation
 
-## Remote script
+### Remote script
 
 Install the package using a remote [bash](https://www.gnu.org/software/bash) script.
 
