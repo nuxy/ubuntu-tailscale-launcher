@@ -8,8 +8,9 @@
 #  http://www.opensource.org/licenses/mit-license.php
 #
 #  Dependencies:
+#    tailscale
 #    gnome-terminal
-#    dbus-x11    
+#    dbus-x11
 #
 #  Notes:
 #   - This script has been tested to work with Ubuntu
