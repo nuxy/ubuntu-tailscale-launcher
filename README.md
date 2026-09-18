@@ -10,6 +10,14 @@ Another (unofficial) Ubuntu [Tailscale](https://tailscale.com) VPN launcher.
 - [gnome-terminal](https://en.wikipedia.org/wiki/GNOME_Terminal)
 - [dbus-x11](https://packages.ubuntu.com/search?keywords=dbus-x11&searchon=names)
 
+## Installation
+
+### Local
+
+Install the package using the provided [bash](https://www.gnu.org/software/bash) script.
+
+    $ ./update.sh
+
 ## Motivation
 
 [Ubuntu](https://ubuntu.com/download/desktop) users, notably non-technical ones, **should not have to know how to use the [Gnome terminal](https://en.wikipedia.org/wiki/GNOME_Terminal)** in order to launch the Tailscale VPN client. This desktop launcher has been created as a workaround to this limitation.
