@@ -16,9 +16,12 @@
 #   - This script must be run as root
 #
 
-sudo curl -L https://github.com/nuxy/ubuntu-tailscale-launcher/archive/refs/heads/master.zip -o /tmp/master.zip
-sudo unzip -j /tmp/master.zip -d /opt/ubuntu-tailscale-launcher
-sudo rm -f /tmp/master.zip
-sudo cp /opt/ubuntu-tailscale-launcher/tailscale.desktop $HOME/.local/share/applications
+BASE_DIR=/opt/ubuntu-tailscale-launcher
+TEMP_OUT=/tmp/master.zip
+
+sudo curl -L https://github.com/nuxy/ubuntu-tailscale-launcher/archive/refs/heads/master.zip -o $TEMP_OUT
+sudo unzip -jo $TEMP_OUT -d $BASE_DIR
+sudo rm -f $TEMP_OUT
+sudo cp $BASE_DIR/tailscale.desktop $HOME/.local/share/applications
 
 echo "Installed successfully"
