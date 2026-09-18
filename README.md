@@ -12,6 +12,12 @@ Another (unofficial) Ubuntu [Tailscale](https://tailscale.com) VPN launcher.
 
 ## Installation
 
+## Remote
+
+Install the package using a remote [bash](https://www.gnu.org/software/bash) script.
+
+    $ curl -fsSL https://raw.githubusercontent.com/nuxy/ubuntu-tailscale-launcher/refs/heads/master/install.sh | sh
+
 ### Local
 
 Install the package using the provided [bash](https://www.gnu.org/software/bash) script.
