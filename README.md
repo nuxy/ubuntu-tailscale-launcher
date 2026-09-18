@@ -12,21 +12,31 @@ Another (unofficial) Ubuntu [Tailscale](https://tailscale.com) VPN launcher.
 
 ## Installation
 
-## Remote
+## Remote script
 
 Install the package using a remote [bash](https://www.gnu.org/software/bash) script.
 
     $ curl -fsSL https://raw.githubusercontent.com/nuxy/ubuntu-tailscale-launcher/refs/heads/master/install.sh | sh
 
-### Local
+### Local script
 
 Install the package using the provided [bash](https://www.gnu.org/software/bash) script.
 
     $ ./update.sh
 
+## Permissions
+
+In order to successfully run the desktop launcher you will need to grant the local user execution rights to the `tailscale` binary.  This can be done using the following command:
+
+    $ sudo tailscale set --operator=$USER
+
 ## Motivation
 
 [Ubuntu](https://ubuntu.com/download/desktop) users, notably non-technical ones, **should not have to know how to use the [Gnome terminal](https://en.wikipedia.org/wiki/GNOME_Terminal)** in order to launch the Tailscale VPN client. This desktop launcher has been created as a workaround to this limitation.
+
+## Contributions
+
+If you fix a bug, or have a code you want to contribute, please send a pull-request with your changes.
 
 ## Versioning
 
